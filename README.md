@@ -12,6 +12,6 @@ Get_Next_Line is project i made it during my student years at 1337 School khouri
 - [x] 02. Get_Next_Line
 - [ ] 03. test files 
 
-### How to realize GNL step by stpe 
+### How to realize GNL step by step 
 
 (i will add this soon)
