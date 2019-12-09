@@ -6,11 +6,11 @@
 /*   By: hezzahir <hamza.ezzahiry@gmail.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/04 19:53:23 by hezzahir          #+#    #+#             */
-/*   Updated: 2019/12/09 18:42:36 by hezzahir         ###   ########.fr       */
+/*   Updated: 2019/12/09 21:09:56 by hezzahir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "libft.h"
+#include "get_next_line.h"
 
 int		r_f_line(const int fd, char **str, char **line)
 {
