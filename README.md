@@ -10,7 +10,7 @@ Get_Next_Line is project i made it during my student years at 1337 School khouri
 
 - [x] 01. Libft : C library regrouping usual functions that we’ll be allowed to use in all your other projects.
 - [x] 02. Get_Next_Line
-- [x] 03. test files 
+- [x] 03. test files : You can use them on correction for testing the performance of gnl 
 
 ### How to realize GNL step by step 
 
