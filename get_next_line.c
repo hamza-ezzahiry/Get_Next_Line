@@ -6,7 +6,7 @@
 /*   By: hezzahir <hamza.ezzahiry@gmail.com>        +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/04 19:53:23 by hezzahir          #+#    #+#             */
-/*   Updated: 2019/12/09 21:09:56 by hezzahir         ###   ########.fr       */
+/*   Updated: 2019/12/13 19:37:31 by hezzahir         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -33,7 +33,7 @@ int		r_f_line(const int fd, char **str, char **line)
 	else if (str[fd][i] == '\0')
 	{
 		*line = ft_strdup(str[fd]);
-		str[fd] = NULL;
+		ft_memdel((void**)&str[fd]);
 	}
 	return (1);
 }
